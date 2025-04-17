@@ -1,0 +1,15 @@
+Complejidad de operaciones en Heap:
+
+- insert: O(log N)
+- delMax / delMin: O(log N)
+- swim: O(log N)
+- sink: O(log N)
+- consultar máximo/mínimo: O(1)
+
+Explicación:
+Cada operación depende de la altura del árbol, que en un Heap completo es logarítmica respecto al número de nodos N.
+
+Heapsort:
+- Construcción del heap: O(N)
+- Extracción de N elementos (delMax/delMin): O(N log N)
+- Complejidad total: O(N log N)

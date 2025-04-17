@@ -1,0 +1,11 @@
+===========================================
+           INTERFAZ DE USUARIO
+===========================================
+
+1. Agregar pedido nuevo
+2. Atender pedido más costoso
+3. Despachar pedido más cercano
+4. Ver estado de las colas
+5. Regresar al menú principal
+
+===========================================

@@ -1,0 +1,12 @@
+===========================================
+        BIENVENIDO A LA PIZZERÍA
+===========================================
+
+Seleccione el modo de operación:
+
+1. Interfaz de Usuario (manual y amigable)
+2. Ingreso Manual (comandos en consola)
+3. Archivo de Pruebas (tests.txt)
+4. Salir
+
+===========================================

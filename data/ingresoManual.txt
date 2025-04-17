@@ -1,0 +1,15 @@
+===========================================
+           MODO INGRESO MANUAL
+===========================================
+
+Escriba comandos uno por uno en el siguiente formato:
+
+- RECIBIR_PEDIDO <NOMBRE> <PRECIO> <CERCANIA>
+- ATENDER_PEDIDO
+- DESPACHAR_PEDIDO
+- SALIR (para regresar al menú principal)
+
+Ejemplo:
+RECIBIR_PEDIDO Andres 23000 4
+
+===========================================
