@@ -4,12 +4,12 @@
 
 Escriba comandos uno por uno en el siguiente formato:
 
-- RECIBIR_PEDIDO <NOMBRE> <PRECIO> <CERCANIA>
-- ATENDER_PEDIDO
-- DESPACHAR_PEDIDO
+- RECIBIR <NOMBRE> <PRECIO> <CERCANIA>
+- ATENDER
+- DESPACHAR
 - SALIR (para regresar al menú principal)
 
 Ejemplo:
-RECIBIR_PEDIDO Andres 23000 4
+RECIBIR Andres 23000 4
 
 ===========================================
