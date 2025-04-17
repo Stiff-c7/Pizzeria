@@ -25,10 +25,7 @@ public class Pedido implements Comparable<Pedido> {
 
     @Override
     public int compareTo(Pedido otro) { //ordenar por precio
-        // Por defecto puedes comparar por precio.
-        // Puedes cambiar esto según el heap (precio o cercanía)
-        // Aquí devolvemos 0 porque el Heap ya se encarga con compare() dependiendo del booleano
-        //return 0; // Esto es válido si Heap tiene lógica personalizada
+        
         return Double.compare(this.precio, otro.precio);
     }
     public int compareToCercania(Pedido otro) { //ordenar por cercania
