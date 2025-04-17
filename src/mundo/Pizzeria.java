@@ -13,9 +13,9 @@ public class Pizzeria {
 
     public Pizzeria() {
         // Max-Heap para ordenar los pedidos por precio (de mayor a menor)
-        pedidosRecibidos = new Heap<>(Comparator.comparing(Pedido::getPrecio)); // false indica que es Max-Heap
+        pedidosRecibidos = new Heap<>(Comparator.comparing(Pedido::getPrecio)); // indica que es Max-Heap
         // Min-Heap para ordenar los pedidos por cercanía (de menor a mayor)
-        colaDespachos = new Heap<>(Comparator.comparing(Pedido::getCercania).reversed()); // true indica que es Min-Heap
+        colaDespachos = new Heap<>(Comparator.comparing(Pedido::getCercania).reversed()); // indica que es Min-Heap
     }
 
     // Método para agregar un nuevo pedido
